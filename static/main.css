@@ -254,6 +254,7 @@ a {
 /* Mobile */
 @media only screen and (min-width: 319px) {
   html{
+    padding-top: 4rem;
     display: block;
     overflow: auto;
     background-image: none;
@@ -1071,7 +1072,7 @@ a {
 @media only screen and (min-width: 580px) and (max-width:830px){
 
    html{
-    padding: .8rem 6rem;
+    padding: 3rem 6rem .8rem;
     animation: spin 10s linear infinite;
     background-size: 300% 300%;
     background-position: 0 0;
@@ -2270,4 +2271,18 @@ main{ animation: intro-scale 1.2s}
     opacity: 1;
     transform: translate(0, 0);
   }
+}
+
+.updated-version {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #131313;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  z-index: 9999;
+  font-family: Lato, Helvetica, sans-serif;
 }

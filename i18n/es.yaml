@@ -56,3 +56,6 @@
 
 - id: photoby
   translation: "Foto de fondo por"
+
+- id: old_version
+  translation: "Estás viendo una versión antigua y archivada del sitio. Visita la <a href='https://ramiroruiz.com'>versión actual</a>."
